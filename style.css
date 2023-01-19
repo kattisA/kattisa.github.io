@@ -1,0 +1,17 @@
+.top-bar {
+    background-color: #8EA7E9;
+}
+
+.top-bar ul {
+    background-color: #8EA7E9;
+}
+
+.button {
+    background-color: #FFF2F2;
+    color: #191919;
+}
+
+.button:hover {
+    background-color: #E5E0FF;
+    color: #191919;
+}
