@@ -6,12 +6,38 @@
     background-color: #8EA7E9;
 }
 
+.sideTitle {
+    font-size: 1.2rem;
+}
+
 .button {
     background-color: #FFF2F2;
     color: #191919;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .button:hover {
     background-color: #E5E0FF;
     color: #191919;
+}
+
+.pageTitle {
+    padding-top: 1rem;
+}
+
+.githubPage {
+    font-size: 1.5rem;
+}
+
+.callout.secondary.footer {
+    background-color: #7286D3;
+}
+
+.footerMenu a {
+    color: #191919;
+}
+
+.footerMenu a:hover {
+    font-weight: bold;
 }
