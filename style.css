@@ -1,5 +1,15 @@
-.top-bar {
+.top-bar, .title-bar {
     background-color: #8EA7E9;
+    color: #191919;
+}
+
+.title-bar-right .menu-icon::after {
+    background: #191919;
+    box-shadow: 0 0.5rem 0 #191919, 0 1rem 0 #191919;
+}
+
+li p {
+    color: #191919;
 }
 
 .top-bar ul {
@@ -8,6 +18,8 @@
 
 .sideTitle {
     font-size: 1.2rem;
+    color: #191919;
+    font-weight: 700;
 }
 
 .button {
