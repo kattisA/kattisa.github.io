@@ -3,9 +3,46 @@
     color: #191919;
 }
 
-.title-bar-right .menu-icon::after {
-    background: #191919;
-    box-shadow: 0 0.5rem 0 #191919, 0 1rem 0 #191919;
+.menu-icon.dark::after {
+    transition: all 0.3s ease;
+}
+
+.menu-icon.dark::before {
+    transition: all 0.3s ease;
+}
+
+.menu-icon.dark.active {
+    transition: all 0.3s ease;
+}
+
+.menu-icon.dark.active::after {
+    transition: all 0.3s ease;
+    background: #0a0a0a;
+    box-shadow: none;
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+.menu-icon.dark.active::before {
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #0a0a0a;
+    box-shadow: none;
+    transform: rotate(-44deg);
+    content: "";
+}
+
+.menu-icon.dark.active::before:hover {
+    opacity: 0.9;
+}
+
+.menu-icon.dark.active::after:hover {
+    opacity: 0.9;
 }
 
 .textMenu {
