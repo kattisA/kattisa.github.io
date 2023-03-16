@@ -8,6 +8,11 @@
     box-shadow: 0 0.5rem 0 #191919, 0 1rem 0 #191919;
 }
 
+.textMenu {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 li p {
     color: #191919;
 }
