@@ -69,11 +69,13 @@ li p {
     color: #191919;
     font-size: 1.2rem;
     font-weight: bold;
+    box-shadow: 0 4px 6px #E5D9D9;
 }
 
 .button:hover {
     background-color: #E5E0FF;
     color: #191919;
+    box-shadow: 0 4px 6px #cec9e5;
 }
 
 .pageTitle {
