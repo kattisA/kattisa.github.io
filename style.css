@@ -64,7 +64,16 @@ li p {
     font-weight: 700;
 }
 
-.button {
+/*.button {
+    background-color: #FFF2F2;
+    color: #191919;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px #E5D9D9;
+}*/
+
+.pink {
+    margin-right: 1.5rem;
     background-color: #FFF2F2;
     color: #191919;
     font-size: 1.2rem;
@@ -72,12 +81,37 @@ li p {
     box-shadow: 0 4px 6px #E5D9D9;
 }
 
-.button:hover,
-.button:focus {
+.pink:hover,
+.pink:focus {
     background-color: #E5E0FF;
     color: #191919;
     box-shadow: 0 4px 6px #cec9e5;
 }
+
+.blue {
+    margin-left: 1.5rem;
+    background-color: #e2f0f6;
+    color: #191919;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px #E5D9D9;
+}
+
+.blue:hover,
+.blue:focus {
+    background-color: #aad3e4;
+    color: #191919;
+    box-shadow: 0 4px 6px #cec9e5;
+}
+
+
+
+/*.button:hover,
+.button:focus {
+    background-color: #E5E0FF;
+    color: #191919;
+    box-shadow: 0 4px 6px #cec9e5;
+}*/
 
 .pageTitle {
     padding-top: 1rem;
